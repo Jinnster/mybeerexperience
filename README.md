@@ -6,6 +6,9 @@ My beer experience is een web applicatie waarmee je je eigen bier collectie kan 
 Home
 Dit is de pagina waar je eerst komt als je naar de site gaat. Hier bevind zich alleen een menubalk en een zoekbalk. De zoekbalk zoekt op landen naar de soorten bier. Typ je bijvoorbeeld ‘France’ in, dan vind je alle bier die uit Frankrijk komen. De zoekresultaten worden weergeven in plaatjes en naam van de bier. Zodra je op de plaatjes klikt, wordt deze toegevoegd aan je bieren collectie.
 
+Search beer
+Pagina waarop je op bier kunt zoeken. Zoektermen zijn bijvoorbeeld France, Germany, Netherlands, Canada, etc. (let op de hoofdletter!)
+
 My beer collection
 Zodra je bij de homepagina een aantal bier heb aangeklikt, komen deze hier te staan. De afbeelding en namen worden getoond. Wanneer je erop klikt, wordt je doorverwezen naar de detail pagina van de bier.
 
@@ -27,3 +30,5 @@ React-router - voor routing
 Redux - voor het beheren van acties en states
 Webpack - samenbundelen van alle files
 Babel loader- het transpilen van ES6 naar ES5 en JSX naar plain JS
+
+Let op: De app maakt gebruik van ontariobeerapi.ca er staan ook outdated bier resources tussen waarvan de beschrijving/foto niet meer werken. Deze worden helaas ook nog ingeladen in de app.
